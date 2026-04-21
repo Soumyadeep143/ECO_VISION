@@ -1,0 +1,38 @@
+# Environment variables
+# Never commit secret keys, credentials, or environment-specific settings.
+.env
+*.env
+.env.*
+!/.env.example
+
+# Python
+# -------------------------------------------------------------------
+# Ignore virtual environment folders.
+venv/
+.venv/
+env/
+
+# Ignore Python cache files, compiled files, and distribution artifacts.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+
+# Frontend
+# -------------------------------------------------------------------
+# Ignore node_modules if you use npm/yarn for frontend packages.
+node_modules/
+
+# IDE & Editor specific files
+# -------------------------------------------------------------------
+.vscode/
+.idea/
+
+# OS-specific files
+# -------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
